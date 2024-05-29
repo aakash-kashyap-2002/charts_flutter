@@ -1,4 +1,5 @@
 import 'package:charts_flutter/widgets/cartesian_chart.dart';
+import 'package:charts_flutter/widgets/live_chart.dart';
 import 'package:charts_flutter/widgets/pie_chart.dart';
 import 'package:charts_flutter/widgets/radial_chart.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       //home: CartesianChartWidget(),
       //home: PieChartWidget(),
-      home: RadialChartWidget(),
+      //home: RadialChartWidget(),
+      home: LiveChartWidget(),
     );
   }
 }
